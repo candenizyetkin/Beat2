@@ -1,0 +1,62 @@
+
+  {
+    "id": 1,
+    "title": "Inception",
+    "genre": "sci-fi",
+    "rating": 8.8,
+    "poster_path": "/qm4e6inception.jpg"
+  },
+  {
+    "id": 2,
+    "title": "The Godfather",
+    "genre": "crime",
+    "rating": 9.2,
+    "poster_path": "/rPdtLWNsZmAtoZl9PK7S2wE3qiS.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Parasite",
+    "genre": "thriller",
+    "rating": 8.6,
+    "poster_path": "/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg"
+  },
+  {
+    "id": 4,
+    "title": "La La Land",
+    "genre": "musical",
+    "rating": 8.0,
+    "poster_path": null
+  },
+  {
+    "id": 5,
+    "title": "Spirited Away",
+    "genre": "animation",
+    "rating": 8.6,
+    "poster_path": "/39wmItIWsg5sZMyfRUHLkWBcuVCM.jpg"
+  }
+
+    {
+    "id": 6,
+    "title": "Recep İvedik",
+    "genre": "comedy",
+    "rating": 8,
+    "poster_path": "/39wmItIWsg5sZMgyRUHLkWBcuVCM.jpg"
+  }
+
+    {
+    "id": 7,
+    "title": "CMYLMZ",
+    "genre": "shit",
+    "rating": 5.3,
+    "poster_path": "/39wmItIWsg5sZMyRUHLkWggBcuVCM.jpg"
+  }
+
+  {
+    "id": 8,
+    "title": "Kardeş Takımı",
+    "genre": "action",
+    "rating": 9.5,
+    "poster_path": "/39wmItIWsg5sZMyRUHLkgWBcuVCM.jpg"
+  }
+
+
