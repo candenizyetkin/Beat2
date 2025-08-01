@@ -1,17 +1,38 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "../css/styles.css";
 import MovieCard from "./MovieCard";
+import { useParams, useNavigate } from "react-router-dom";
 
 export default function MoviesGrid({ movies }) {
+  const { genre: genreParam } = useParams(); // URL’den oku
+  const navigate = useNavigate();
   const [genre, setGenre] = useState("All Genres");
-  const [rating, setRating] = useState("All");
+  const [minRating, setMinRating] = useState(1);
+
+  useEffect(() => {
+    if (genreParam) {
+      // URL’de küçük harfli geldiğini varsayıyoruz, title-case’e çevir
+      const pretty = genreParam[0].toUpperCase() + genreParam.slice(1);
+      setGenre(pretty);
+    } else {
+      setGenre("All Genres");
+    }
+  }, [genreParam]);
 
   const handleGenreChange = (e) => {
-    setGenre(e.target.value);
+    const newGenre = e.target.value;
+    setGenre(newGenre);
+
+    // Seçime göre yönlendir:
+    if (newGenre === "All Genres") {
+      navigate("/");
+    } else {
+      navigate(`/genre/${newGenre.toLowerCase()}`);
+    }
   };
 
   const handleRatingChange = (e) => {
-    setRating(e.target.value);
+    setMinRating(parseInt(e.target.value, 10));
   };
 
   /* bu kısımlar filter için*/ /*buna router bağlanacak*/
@@ -23,26 +44,11 @@ export default function MoviesGrid({ movies }) {
   };
 
   /*bu dinamik olacak scrollable tarzı*/
-  const matchesRating = (movie, rating) => {
-    switch (rating) {
-      case "All":
-        return true;
 
-      case "Good":
-        return movie.rating >= 8;
-
-      case "Ok":
-        return movie.rating < 8 && movie.rating >= 6;
-
-      case "Bad":
-        return movie.rating < 6;
-      default:
-        return false;
-    }
-  };
+  const matchesRating = (movie) => movie.rating >= minRating;
 
   const filteredMovies = movies.filter(
-    (movie) => matchesgGenre(movie, genre) && matchesRating(movie, rating)
+    (movie) => matchesgGenre(movie, genre) && matchesRating(movie, minRating)
   );
 
   return (
@@ -60,20 +66,25 @@ export default function MoviesGrid({ movies }) {
             <option>Drama</option>
             <option>Horror</option>
             <option>Fantasy</option>
+            <option>Thriller</option>
+            <option>Animation</option>
+            <option>Comedy</option>
+            <option>Sci-fi</option>
           </select>
         </div>
 
         <div className="filter-slot">
-          <label>Rating</label>
+          <label>Min Rating</label>
           <select
             className="filter-dropdown"
-            value={rating}
+            value={minRating}
             onChange={handleRatingChange}
           >
-            <option>All</option>
-            <option>Good</option>
-            <option>Ok</option>
-            <option>Bad</option>
+            {Array.from({ length: 10 }, (_, i) => i + 1).map((n) => (
+              <option key={n} value={n}>
+                {n}
+              </option>
+            ))}
           </select>
         </div>
       </div>

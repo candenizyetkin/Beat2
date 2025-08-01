@@ -1,62 +1,422 @@
-
+[
   {
     "id": 1,
-    "title": "Inception",
+    "title": "Movie 1",
     "genre": "sci-fi",
-    "rating": 8.8,
-    "poster_path": "/qm4e6inception.jpg"
+    "rating": 8.3,
+    "poster_path": "/poster1.jpg"
   },
   {
     "id": 2,
-    "title": "The Godfather",
-    "genre": "crime",
-    "rating": 9.2,
-    "poster_path": "/rPdtLWNsZmAtoZl9PK7S2wE3qiS.jpg"
+    "title": "Movie 2",
+    "genre": "action",
+    "rating": 5.4,
+    "poster_path": "/poster2.jpg"
   },
   {
     "id": 3,
-    "title": "Parasite",
-    "genre": "thriller",
-    "rating": 8.6,
-    "poster_path": "/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg"
+    "title": "Movie 3",
+    "genre": "horror",
+    "rating": 4.5,
+    "poster_path": "/poster3.jpg"
   },
   {
     "id": 4,
-    "title": "La La Land",
-    "genre": "musical",
-    "rating": 8.0,
-    "poster_path": null
+    "title": "Movie 4",
+    "genre": "comedy",
+    "rating": 8.3,
+    "poster_path": "/poster4.jpg"
   },
   {
     "id": 5,
-    "title": "Spirited Away",
-    "genre": "animation",
-    "rating": 8.6,
-    "poster_path": "/39wmItIWsg5sZMyfRUHLkWBcuVCM.jpg"
-  }
-
-    {
+    "title": "Movie 5",
+    "genre": "horror",
+    "rating": 6.1,
+    "poster_path": "/poster5.jpg"
+  },
+  {
     "id": 6,
-    "title": "Recep İvedik",
-    "genre": "comedy",
-    "rating": 8,
-    "poster_path": "/39wmItIWsg5sZMgyRUHLkWBcuVCM.jpg"
-  }
-
-    {
+    "title": "Movie 6",
+    "genre": "thriller",
+    "rating": 8.6,
+    "poster_path": "/poster6.jpg"
+  },
+  {
     "id": 7,
-    "title": "CMYLMZ",
-    "genre": "shit",
-    "rating": 5.3,
-    "poster_path": "/39wmItIWsg5sZMyRUHLkWggBcuVCM.jpg"
-  }
-
+    "title": "Movie 7",
+    "genre": "drama",
+    "rating": 6.4,
+    "poster_path": "/poster7.jpg"
+  },
   {
     "id": 8,
-    "title": "Kardeş Takımı",
+    "title": "Movie 8",
     "genre": "action",
+    "rating": 6.3,
+    "poster_path": "/poster8.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Movie 9",
+    "genre": "comedy",
+    "rating": 6.7,
+    "poster_path": "/poster9.jpg"
+  },
+  {
+    "id": 10,
+    "title": "Movie 10",
+    "genre": "sci-fi",
+    "rating": 8.3,
+    "poster_path": "/poster10.jpg"
+  },
+  {
+    "id": 11,
+    "title": "Movie 11",
+    "genre": "horror",
+    "rating": 8.8,
+    "poster_path": "/poster11.jpg"
+  },
+  {
+    "id": 12,
+    "title": "Movie 12",
+    "genre": "action",
+    "rating": 7.2,
+    "poster_path": "/poster12.jpg"
+  },
+  {
+    "id": 13,
+    "title": "Movie 13",
+    "genre": "sci-fi",
+    "rating": 7.7,
+    "poster_path": "/poster13.jpg"
+  },
+  {
+    "id": 14,
+    "title": "Movie 14",
+    "genre": "horror",
+    "rating": 5.3,
+    "poster_path": "/poster14.jpg"
+  },
+  {
+    "id": 15,
+    "title": "Movie 15",
+    "genre": "comedy",
+    "rating": 9.2,
+    "poster_path": "/poster15.jpg"
+  },
+  {
+    "id": 16,
+    "title": "Movie 16",
+    "genre": "action",
+    "rating": 5.6,
+    "poster_path": "/poster16.jpg"
+  },
+  {
+    "id": 17,
+    "title": "Movie 17",
+    "genre": "thriller",
+    "rating": 5.6,
+    "poster_path": "/poster17.jpg"
+  },
+  {
+    "id": 18,
+    "title": "Movie 18",
+    "genre": "action",
+    "rating": 7.6,
+    "poster_path": "/poster18.jpg"
+  },
+  {
+    "id": 19,
+    "title": "Movie 19",
+    "genre": "comedy",
+    "rating": 4.7,
+    "poster_path": "/poster19.jpg"
+  },
+  {
+    "id": 20,
+    "title": "Movie 20",
+    "genre": "animation",
+    "rating": 4.2,
+    "poster_path": "/poster20.jpg"
+  },
+  {
+    "id": 21,
+    "title": "Movie 21",
+    "genre": "fantasy",
+    "rating": 4.4,
+    "poster_path": "/poster21.jpg"
+  },
+  {
+    "id": 22,
+    "title": "Movie 22",
+    "genre": "horror",
     "rating": 9.5,
-    "poster_path": "/39wmItIWsg5sZMyRUHLkgWBcuVCM.jpg"
+    "poster_path": "/poster22.jpg"
+  },
+  {
+    "id": 23,
+    "title": "Movie 23",
+    "genre": "thriller",
+    "rating": 4.2,
+    "poster_path": "/poster23.jpg"
+  },
+  {
+    "id": 24,
+    "title": "Movie 24",
+    "genre": "sci-fi",
+    "rating": 9.3,
+    "poster_path": "/poster24.jpg"
+  },
+  {
+    "id": 25,
+    "title": "Movie 25",
+    "genre": "action",
+    "rating": 7.5,
+    "poster_path": "/poster25.jpg"
+  },
+  {
+    "id": 26,
+    "title": "Movie 26",
+    "genre": "drama",
+    "rating": 9.7,
+    "poster_path": "/poster26.jpg"
+  },
+  {
+    "id": 27,
+    "title": "Movie 27",
+    "genre": "drama",
+    "rating": 4.1,
+    "poster_path": "/poster27.jpg"
+  },
+  {
+    "id": 28,
+    "title": "Movie 28",
+    "genre": "animation",
+    "rating": 5.6,
+    "poster_path": "/poster28.jpg"
+  },
+  {
+    "id": 29,
+    "title": "Movie 29",
+    "genre": "animation",
+    "rating": 4.6,
+    "poster_path": "/poster29.jpg"
+  },
+  {
+    "id": 30,
+    "title": "Movie 30",
+    "genre": "sci-fi",
+    "rating": 6.5,
+    "poster_path": "/poster30.jpg"
+  },
+  {
+    "id": 31,
+    "title": "Movie 31",
+    "genre": "sci-fi",
+    "rating": 5.0,
+    "poster_path": "/poster31.jpg"
+  },
+  {
+    "id": 32,
+    "title": "Movie 32",
+    "genre": "fantasy",
+    "rating": 8.4,
+    "poster_path": "/poster32.jpg"
+  },
+  {
+    "id": 33,
+    "title": "Movie 33",
+    "genre": "animation",
+    "rating": 7.2,
+    "poster_path": "/poster33.jpg"
+  },
+  {
+    "id": 34,
+    "title": "Movie 34",
+    "genre": "comedy",
+    "rating": 9.0,
+    "poster_path": "/poster34.jpg"
+  },
+  {
+    "id": 35,
+    "title": "Movie 35",
+    "genre": "action",
+    "rating": 7.3,
+    "poster_path": "/poster35.jpg"
+  },
+  {
+    "id": 36,
+    "title": "Movie 36",
+    "genre": "comedy",
+    "rating": 4.7,
+    "poster_path": "/poster36.jpg"
+  },
+  {
+    "id": 37,
+    "title": "Movie 37",
+    "genre": "animation",
+    "rating": 4.3,
+    "poster_path": "/poster37.jpg"
+  },
+  {
+    "id": 38,
+    "title": "Movie 38",
+    "genre": "action",
+    "rating": 4.0,
+    "poster_path": "/poster38.jpg"
+  },
+  {
+    "id": 39,
+    "title": "Movie 39",
+    "genre": "drama",
+    "rating": 4.5,
+    "poster_path": "/poster39.jpg"
+  },
+  {
+    "id": 40,
+    "title": "Movie 40",
+    "genre": "comedy",
+    "rating": 9.4,
+    "poster_path": "/poster40.jpg"
+  },
+  {
+    "id": 41,
+    "title": "Movie 41",
+    "genre": "comedy",
+    "rating": 7.7,
+    "poster_path": "/poster41.jpg"
+  },
+  {
+    "id": 42,
+    "title": "Movie 42",
+    "genre": "thriller",
+    "rating": 9.7,
+    "poster_path": "/poster42.jpg"
+  },
+  {
+    "id": 43,
+    "title": "Movie 43",
+    "genre": "comedy",
+    "rating": 8.8,
+    "poster_path": "/poster43.jpg"
+  },
+  {
+    "id": 44,
+    "title": "Movie 44",
+    "genre": "drama",
+    "rating": 9.5,
+    "poster_path": "/poster44.jpg"
+  },
+  {
+    "id": 45,
+    "title": "Movie 45",
+    "genre": "drama",
+    "rating": 8.7,
+    "poster_path": "/poster45.jpg"
+  },
+  {
+    "id": 46,
+    "title": "Movie 46",
+    "genre": "fantasy",
+    "rating": 8.2,
+    "poster_path": "/poster46.jpg"
+  },
+  {
+    "id": 47,
+    "title": "Movie 47",
+    "genre": "action",
+    "rating": 7.9,
+    "poster_path": "/poster47.jpg"
+  },
+  {
+    "id": 48,
+    "title": "Movie 48",
+    "genre": "thriller",
+    "rating": 4.8,
+    "poster_path": "/poster48.jpg"
+  },
+  {
+    "id": 49,
+    "title": "Movie 49",
+    "genre": "animation",
+    "rating": 8.9,
+    "poster_path": "/poster49.jpg"
+  },
+  {
+    "id": 50,
+    "title": "Movie 50",
+    "genre": "animation",
+    "rating": 6.6,
+    "poster_path": "/poster50.jpg"
+  },
+  {
+    "id": 51,
+    "title": "Movie 51",
+    "genre": "horror",
+    "rating": 9.5,
+    "poster_path": "/poster51.jpg"
+  },
+  {
+    "id": 52,
+    "title": "Movie 52",
+    "genre": "action",
+    "rating": 7.4,
+    "poster_path": "/poster52.jpg"
+  },
+  {
+    "id": 53,
+    "title": "Movie 53",
+    "genre": "action",
+    "rating": 4.4,
+    "poster_path": "/poster53.jpg"
+  },
+  {
+    "id": 54,
+    "title": "Movie 54",
+    "genre": "action",
+    "rating": 9.3,
+    "poster_path": "/poster54.jpg"
+  },
+  {
+    "id": 55,
+    "title": "Movie 55",
+    "genre": "action",
+    "rating": 5.8,
+    "poster_path": "/poster55.jpg"
+  },
+  {
+    "id": 56,
+    "title": "Movie 56",
+    "genre": "comedy",
+    "rating": 9.1,
+    "poster_path": "/poster56.jpg"
+  },
+  {
+    "id": 57,
+    "title": "Movie 57",
+    "genre": "thriller",
+    "rating": 4.8,
+    "poster_path": "/poster57.jpg"
+  },
+  {
+    "id": 58,
+    "title": "Movie 58",
+    "genre": "animation",
+    "rating": 5.8,
+    "poster_path": "/poster58.jpg"
+  },
+  {
+    "id": 59,
+    "title": "Movie 59",
+    "genre": "sci-fi",
+    "rating": 7.1,
+    "poster_path": "/poster59.jpg"
+  },
+  {
+    "id": 60,
+    "title": "Movie 60",
+    "genre": "fantasy",
+    "rating": 6.0,
+    "poster_path": "/poster60.jpg"
   }
-
-
+]
